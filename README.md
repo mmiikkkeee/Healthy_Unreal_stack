@@ -2,8 +2,14 @@
 
 > 🚧 **Заглушка / Placeholder.** Проект находится на стадии идеи — рабочего кода здесь пока нет.
 
-Open-source альтернатива программе класса «Neo Stack».
-An open-source alternative to a "Neo Stack"-style application.
+Open-source альтернатива NeoStack AI: слой, который делает Unreal Engine удобным и экономным по токенам для ИИ-агентов (Claude Code, Codex, Cursor, Gemini CLI).
+An open-source alternative to NeoStack AI: a token-efficient agent layer for Unreal Engine.
+
+## Исследование
+
+Подробный разбор того, что уже существует (MCP от Epic в UE 5.8, NeoStack AI, открытые UE MCP-серверы), куда на самом деле уходят лимиты и какую архитектуру выбрать: [docs/research/ai-unreal-landscape.md](docs/research/ai-unreal-landscape.md).
+
+Коротко: не форк и не ещё один MCP-сервер с нуля, а собственный компактный фронт для агента плюс собственные тулсеты внутри реестра инструментов Epic (UE 5.8+). Начинать стоит с пакета конфигурации без кода и живого замера.
 
 ## Идея
 
