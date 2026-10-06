@@ -1,0 +1,17 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Dependencies / build
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+dist/
+build/
+
+# Env / logs
+.env
+*.log
