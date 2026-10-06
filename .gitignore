@@ -15,3 +15,7 @@ build/
 # Env / logs
 .env
 *.log
+
+# Unreal / probe outputs (may contain Epic-derived text, see UE EULA)
+Saved/
+Intermediate/
